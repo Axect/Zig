@@ -1,0 +1,4 @@
+*/bin
+*/**/bin
+*/zig-cache
+*/**/zig-cache
