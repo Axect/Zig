@@ -11,6 +11,6 @@ pub fn main() void {
     var y: [*]f64 = &array_y;
     c.cblas_daxpy(4, 1., x, 1, y, 1);
     for (array_y) |item, i| {
-        warn("{}th: {}\n", i, item);
+        warn("{}th: {}\n", .{ i, item });
     }
 }
